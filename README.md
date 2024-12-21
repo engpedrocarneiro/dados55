@@ -1,33 +1,23 @@
-# dados55
+# Dados55
 
-Repositório para Edge Functions do Supabase, incluindo a função `process-document` que processa documentos usando OpenAI GPT-4.
+Sistema de processamento e análise de documentos utilizando Supabase e React.
 
-## Estrutura
+## Funcionalidades
 
-```
-supabase/
-  └── functions/
-      └── process-document/
-          └── index.ts      # Implementação da Edge Function
-```
+- Processamento de documentos
+- Análise de conteúdo
+- Interface intuitiva
+- Integração com Supabase
 
-## Edge Functions
+## Tecnologias
 
-### process-document
+- React
+- Supabase
+- TypeScript
+- Tailwind CSS
 
-Função responsável por processar documentos usando o modelo GPT-4o-2024-11-20 da OpenAI. A função:
+## Estrutura do Projeto
 
-1. Recebe o texto do documento
-2. Processa usando o prompt específico
-3. Retorna uma estrutura JSON com:
-   - Metadados do documento
-   - Conteúdo estruturado
-   - Relacionamentos
-   - Tags
-
-## Configuração
-
-A função requer as seguintes variáveis de ambiente:
-- OPENAI_API_KEY
-- SUPABASE_URL
-- SUPABASE_ANON_KEY
+- `/src` - Código fonte da aplicação
+- `/supabase` - Configurações e funções do Supabase
+- `/components` - Componentes React reutilizáveis
